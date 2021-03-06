@@ -1,0 +1,24 @@
+{
+  "hosting": {
+    "public": "public",
+    "appAssociation": "AUTO",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [{
+    	"source": "/resume",
+    	"destination": "/resume/resume.pdf"
+    },
+	{
+		"source": "/l/**",
+		"dynamicLinks": true }
+	],
+	"redirects": [ {
+	    "source": "/gullible",
+	    "destination": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+	    "type": 301
+  	} ]
+  }
+}

@@ -71,3 +71,6 @@ _tmp/
 
 # Temp files
 .DS_Store
+
+# Package-lock
+package-lock.json

@@ -64,3 +64,10 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# Generated static files
+_site/
+_tmp/
+
+# Temp files
+.DS_Store

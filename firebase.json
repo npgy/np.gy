@@ -19,6 +19,11 @@
 	    "source": "/gullible",
 	    "destination": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
 	    "type": 301
-  	} ]
+  	},
+    {
+      "source": "/states",
+      "destination": "https://docs.google.com/spreadsheets/d/1nJzi5EKrzGYV-6VEgMRgmwSuyXQoH2lonBxNd-k1Fgg",
+      "type": 301
+    } ]
   }
 }

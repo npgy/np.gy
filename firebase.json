@@ -24,6 +24,11 @@
       "source": "/states",
       "destination": "https://docs.google.com/spreadsheets/d/1nJzi5EKrzGYV-6VEgMRgmwSuyXQoH2lonBxNd-k1Fgg",
       "type": 301
+    },
+    {
+      "source": "/datawave",
+      "destination": "https://open.spotify.com/playlist/2ona5aFJACCb2qLm3dpmEt",
+      "type": 301
     } ]
   }
 }

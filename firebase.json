@@ -2,7 +2,6 @@
   "hosting": {
     "site": "npgy-shlink",
     "appAssociation": "AUTO",
-    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",

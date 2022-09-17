@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "site": "npgy-shlink",
+    "appAssociation": "AUTO",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [ { 
+      "source": "/**", 
+      "dynamicLinks": true 
+    },
+    { 
+      "source": "/l/**", 
+      "dynamicLinks": true 
+    } ],
+    "redirects": [ {
+      "source": "/",
+      "destination": "https://npgy.net",
+      "type": 301
+    } ]
+  }
+}
